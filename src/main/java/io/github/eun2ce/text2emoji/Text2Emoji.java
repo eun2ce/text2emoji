@@ -39,11 +39,9 @@ public class Text2Emoji {
   // 실제 이모티콘 삽입 기능을 처리하는 내부 메서드
   private String insertEmojiInternal(String text) {
     for (Map.Entry<String, String> entry : emojiMap.entrySet()) {
-      if (text.contains(entry.getKey())) {
         String emotion = entry.getKey();
         String emoji = entry.getValue();
         text = text.replaceAll("(?i)(\\b" + emotion + "\\b)", emoji);
-      }
     }
     return text;
   }

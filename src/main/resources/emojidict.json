@@ -1,25 +1,207 @@
 {
   "😊": [
     "happy",
-    "smile"
+    "smile",
+    "joy",
+    "cheerful",
+    "grin"
   ],
   "😢": [
-    "sad"
+    "sad",
+    "cry",
+    "tears",
+    "down",
+    "blue"
   ],
   "😡": [
     "angry",
-    "mad"
+    "mad",
+    "furious",
+    "rage",
+    "irritated"
   ],
   "😎": [
     "cool",
-    "chill"
+    "chill",
+    "awesome",
+    "stylish",
+    "swagger"
   ],
   "😂": [
     "laugh",
-    "funny"
+    "funny",
+    "haha",
+    "rofl",
+    "lmao"
   ],
   "😍": [
     "love",
-    "heart"
+    "heart",
+    "adorable",
+    "infatuation",
+    "crush"
+  ],
+  "😲": [
+    "surprised",
+    "shocked",
+    "amazed",
+    "astonished",
+    "dumbfounded"
+  ],
+  "😜": [
+    "silly",
+    "wink",
+    "playful",
+    "tease",
+    "mischievous"
+  ],
+  "😴": [
+    "tired",
+    "sleepy",
+    "exhausted",
+    "rest",
+    "drowsy"
+  ],
+  "🤩": [
+    "excited",
+    "starstruck",
+    "awestruck",
+    "wow"
+  ],
+  "😝": [
+    "silly",
+    "tongue",
+    "playful",
+    "goofy"
+  ],
+  "🤔": [
+    "thinking",
+    "pondering",
+    "confused",
+    "question",
+    "unsure"
+  ],
+  "😷": [
+    "sick",
+    "ill",
+    "flu",
+    "cold",
+    "mask"
+  ],
+  "🥺": [
+    "pleading",
+    "begging",
+    "puppyeyes",
+    "please"
+  ],
+  "🥰": ["cute"],
+  "💩": [
+    "poop",
+    "gross",
+    "disgusting",
+    "messy",
+    "yuck"
+  ],
+  "🐶": [
+    "dog"
+  ],
+  "🐱": [
+    "cat"
+  ],
+  "🐰": [
+    "rabbit"
+  ],
+  "🐻": [
+    "bear"
+  ],
+  "🐯": [
+    "tiger"
+  ],
+  "🐸": [
+    "frog"
+  ],
+  "🦄": [
+    "unicorn"
+  ],
+  "🐼": [
+    "panda"
+  ],
+  "🦊": [
+    "fox"
+  ],
+  "🍎": [
+    "apple"
+  ],
+  "🍕": [
+    "pizza"
+  ],
+  "🍔": [
+    "burger"
+  ],
+  "🍣": [
+    "sushi"
+  ],
+  "🍩": [
+    "donut"
+  ],
+  "🏖️": [
+    "beach",
+    "vacation",
+    "holiday"
+  ],
+  "✈️": [
+    "airplane",
+    "flight",
+    "travel"
+  ],
+  "🚗": [
+    "car",
+    "drive"
+  ],
+  "⛷️": [
+    "skiing",
+    "snow",
+    "winter"
+  ],
+  "🏕️": [
+    "camping",
+    "outdoor",
+    "nature"
+  ],
+  "💍": [
+    "ring",
+    "wedding",
+    "proposal"
+  ],
+  "📱": [
+    "phone",
+    "mobile"
+  ],
+  "💻": [
+    "laptop",
+    "computer"
+  ],
+  "🖥️": [
+    "desktop",
+    "screen"
+  ],
+  "⚡": [
+    "electric",
+    "energy",
+    "power"
+  ],
+  "🔑": [
+    "key",
+    "lock"
+  ],
+  "🌍": [
+    "earth",
+    "world",
+    "planet"
+  ],
+  "🎮": [
+    "game",
+    "gaming",
+    "controller"
   ]
 }
