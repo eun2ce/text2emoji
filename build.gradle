@@ -1,0 +1,63 @@
+import com.vanniktech.maven.publish.SonatypeHost
+
+plugins {
+    id 'java'
+    id 'com.vanniktech.maven.publish' version '0.30.0'
+    id 'signing'
+}
+
+group = 'io.github.eun2ce'
+version = '0.0.1'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.googlecode.json-simple:json-simple:1.1.1'
+}
+
+mavenPublishing {
+    publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
+    signAllPublications()
+
+    coordinates('io.github.eun2ce', 'text2emoji', '0.0.1')
+
+
+    pom {
+        name = 'text2emoji'
+        description = 'Text2Emoji is a Java library that automatically converts emotion words in text to corresponding emojis.'
+        url = '<https://github.com/eun2ce/text2emoji>'
+
+        licenses {
+            license {
+                name = 'Apache License'
+                url = '<https://github.com/eun2ce/text2emoji/LICENSE>'
+            }
+        }
+
+        developers {
+            developer {
+                id = 'eun2ce'
+                name = 'eunice.jo'
+                email = 'joeun2ce@gmail.com'
+            }
+        }
+
+        scm {
+            connection = 'scm:git:github.com/eun2ce/text2emoji.git'
+            developerConnection = 'scm:git:ssh://github.com:eun2ce/text2emoji.git'
+            url = '<https://github.com/eun2ce/text2emoji>'
+        }
+    }
+}
+
+test {
+    useJUnitPlatform()
+}
