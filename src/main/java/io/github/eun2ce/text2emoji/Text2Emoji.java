@@ -40,14 +40,16 @@ public class Text2Emoji {
   private String insertEmojiInternal(String text) {
     for (Map.Entry<String, String> entry : emojiMap.entrySet()) {
       if (text.contains(entry.getKey())) {
-        text = text.replace(entry.getKey(), entry.getKey() + " " + entry.getValue());
+        String emotion = entry.getKey();
+        String emoji = entry.getValue();
+        text = text.replaceAll("(?i)(\\b" + emotion + "\\b)", emoji);
       }
     }
     return text;
   }
 
   private void loadEmojisFromFile() {
-    try (InputStream inputStream = Text2Emoji.class.getResourceAsStream(emojiDictFileName)) {
+    try (InputStream inputStream = Text2Emoji.class.getClassLoader().getResourceAsStream(emojiDictFileName)) {
       if (inputStream == null) {
         System.out.println("file not found");
         return;
