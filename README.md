@@ -1,8 +1,5 @@
 # text2emoji
 
-[![Maven Central](https://img.shields.io/maven-central/v/io.github.eun2ce/text2emoji.svg)](https://central.sonatype.com/artifact/io.github.eun2ce/text2emoji)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-
 Text2Emoji is a Java library that automatically converts emotion words in text to corresponding emojis.
 
 ## Getting Started
@@ -12,7 +9,7 @@ Text2Emoji is a Java library that automatically converts emotion words in text t
 #### gradle
 
 ```groovy
-implementation 'io.github.eun2ce:text2emoji:0.2.0'
+implementation 'io.github.eun2ce:text2emoji:0.3.0'
 ```
 
 #### Maven
@@ -21,7 +18,7 @@ implementation 'io.github.eun2ce:text2emoji:0.2.0'
 <dependency>
     <groupId>io.github.eun2ce</groupId>
     <artifactId>text2emoji</artifactId>
-    <version>0.2.0</version>
+    <version>0.3.0</version>
 </dependency>
 ```
 
