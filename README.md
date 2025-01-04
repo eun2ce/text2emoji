@@ -9,7 +9,7 @@ Text2Emoji is a Java library that automatically converts emotion words in text t
 #### gradle
 
 ```groovy
-implementation 'io.github.eun2ce:text2emoji:0.3.0'
+implementation 'io.github.eun2ce:text2emoji:0.3.2'
 ```
 
 #### Maven
@@ -18,7 +18,7 @@ implementation 'io.github.eun2ce:text2emoji:0.3.0'
 <dependency>
     <groupId>io.github.eun2ce</groupId>
     <artifactId>text2emoji</artifactId>
-    <version>0.3.0</version>
+    <version>0.3.2</version>
 </dependency>
 ```
 
